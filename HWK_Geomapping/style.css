@@ -1,0 +1,39 @@
+html{
+    background-color:rgb(39, 32, 41);
+}
+
+body{
+    background-color: rgb(39, 32, 41);
+}
+
+.jumbotron {
+    text-align: center;
+    color: rgb(253, 219, 245);
+    position: relative;
+    background: rgb(79, 57, 85) ;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#map{
+    height: 900px;
+}
+
+.legend {
+    line-height: 18px;
+    color: rgb(92, 91, 91);
+}
+
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 7px;
+    opacity: 0.5;
+}
+
+.leaflet-bottom.leaflet-left{
+    width: 90%;
+}
